@@ -19,17 +19,17 @@ jobs:
       - run: flutter build web --release
         # 1. change path which exist lib/main.dart
 #         working-directory: ./webtest
-      - run: |
-          # 2. change path to [existed lib/main.dart path]/build/web
-          cd ./webTest/build/web
-          git init
-           # 3. change your email
-          git config --global user.email ikinye86@gmail.com
-          # 4. change your name
-          git config --global user.name rollcake86
-          git status
-          # 5. change your repository
-          git remote add origin https://$@github.com/rollcake86/webtest.git
-          git add --all
-          git commit -m "update"
-          git push origin main
+#       - run: |
+#           # 2. change path to [existed lib/main.dart path]/build/web
+#           cd ./webTest/build/web
+#           git init
+#            # 3. change your email
+#           git config --global user.email ikinye86@gmail.com
+#           # 4. change your name
+#           git config --global user.name rollcake86
+#           git status
+#           # 5. change your repository
+#           git remote add origin https://$@github.com/rollcake86/webtest.git
+#           git add --all
+#           git commit -m "update"
+#           git push origin main
