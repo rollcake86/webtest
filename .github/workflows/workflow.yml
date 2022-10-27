@@ -10,6 +10,7 @@ jobs:
     env:
       credentials: $ {{ secrets.COMMIT_SECRET }}
     runs-on: ubuntu-latest
+    
     steps:
       - uses: actions/checkout@v1
       - uses: subosito/flutter-action@v1
