@@ -3,11 +3,9 @@ on:
   push:
     branches:
       - main
-# permissions:
-#   contents: write
 jobs:
   build:
-#     name: Build Web
+    name: Build Web
 #     env:
 #       my_secret: $ {{ secrets.COMMIT_SECRET }}
     runs-on: ubuntu-latest
