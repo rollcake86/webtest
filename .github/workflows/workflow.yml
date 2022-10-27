@@ -7,8 +7,8 @@ on:
 jobs:
   build:
     name: Build Web
-    env:
-      credentials: $ {{ secrets.COMMIT_SECRET }}
+#     env:
+#       credentials: $ {{ secrets.COMMIT_SECRET }}
     runs-on: ubuntu-latest
     
     steps:
